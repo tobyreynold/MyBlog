@@ -1,7 +1,7 @@
 MyBlog
 ======
 
-我的博客代码工程:
+我的博客相关介绍:
 
    2014年5月19号开始建设个人博客，不使用网上现成的开源成品。立帖为证！
    
@@ -20,7 +20,7 @@ MyBlog
       前端资源上线脚本发布整套体系全都交给Grunt完成。
         Grunt:http://gruntjs.cn/
       
-      支持响应式布局，mobile上尽量较好的呈现。
+      支持响应式布局，能在mobile上尽量较好的呈现。
       
       
    2.后端采用技术：PHP+Mysql，PHP框架使用codeigniter轻量级开源框架。
@@ -38,6 +38,7 @@ MyBlog
       PHP+MYsql+Apache的一键配置安装环境工具XAMPP。
       
    3.数据统计相关：采用Google analytics 或者百度统计。
+       
        PV
        UV
        点击量等
