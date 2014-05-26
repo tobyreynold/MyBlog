@@ -3,26 +3,24 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter!!</title>
+	<script src="../statics/js/snap.svg-min.js"></script>
+	<script src="../statics/js/Welcome.js"></script>
 </head>
 <body>
+<header>
 
+</header>
 <div id="container">
 	<h1>Welcome to CodeIgniter!:)</h1>
-
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+		<svg id="svg" width="500px" height="300px">
 
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+		</svg>
 	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds</p>
 </div>
+<footer>
+	Page rendered in <strong>{elapsed_time}</strong> seconds
+</footer>
 
 </body>
 </html>

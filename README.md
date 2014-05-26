@@ -22,6 +22,9 @@ MyBlog
 
       支持响应式布局，能在mobile上尽量较好的呈现。
 
+      欢迎页采用snap.svg。
+         snap.svg:http://snapsvg.io/
+
 
    2.后端采用技术：PHP+Mysql，PHP框架使用codeigniter轻量级开源框架。
 
