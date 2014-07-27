@@ -5,6 +5,7 @@ body {
 	color: #5d5d5d;
 	font-size: 16px;
 	line-height: 1.625;
+	text-transform: uppercase;
 }
 a { text-decoration: none; color: #FFF;}
 h1,h2,h3,h4 {
@@ -18,7 +19,6 @@ h1,h2,h3,h4 {
 
 /* 头部样式 */
 #header {
-	text-transform: uppercase;
 	background: #000;
 	background: rgba(0, 0, 0, 0.7);
 	z-index: 5;
@@ -96,6 +96,65 @@ h1,h2,h3,h4 {
     min-height: 350px;
     
 }
+
+/* adress css*/
+
+address {
+	
+	position: absolute;
+	top: 170px; 
+	left: 50%;
+	z-index: 10;
+	width: 300px;
+	height: auto;
+	margin-left: -150px;
+	background: transparent;
+	text-align: center;
+}
+
+address p {
+	margin-top: 17px;
+}
+
+
+
+.btn-trans {
+	line-height: normal;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 0;
+	font-size: 14px;
+	vertical-align: middle;
+	padding: 7px 40px;
+	background: transparent;
+	outline: none;
+}
+
+.btn-trans:hover {
+	color: #ff3600;
+	border-color: #ff3600;
+	transition:all 0.4s ease 0.1s;
+}
+
+.avatar {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	margin: 0 auto;
+	border: 2px solid #FFF;
+	overflow: hidden;
+}
+
+.avatar img {
+	margin-left: -2px;
+	margin-top: -2px;
+}
+
+.name {
+	color: #FFF;
+}
+
+
 
 
 

@@ -29,6 +29,18 @@
         <li style="background-image: url(../statics/images/slide_bg4.jpg);"></li>
     </ul>
 </section>
+<address>
+	<div class="avatar">
+		<img src="../statics/images/avatar.jpg" width="64px" height="64px">
+	</div>
+	<p>
+		<strong class="name">xiaoyue</strong>
+	</p>
+	<p>
+		<a class="btn-trans" href="#">read more</a>
+	</p>
+	
+</address>
 <main id="">
 	<!-- <h1 class="">Welcome to CodeIgniter!:)</h1> -->
 	<div id="" >
@@ -46,23 +58,7 @@
 
 <script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 <script type="text/javascript" src="../statics/js/unslide.js"></script>
-<script>
 
-$(function() {
-   	if(window.chrome) {
-		$('.banner li').css('background-size', '100% 100%');
-	}
-
-	$('.banner').unslider({
-		speed: 800,               //  The speed to animate each slide (in milliseconds)
-		delay: 5000,              //  The delay between slide animations (in milliseconds)
-		complete: function() {},  //  A function that gets called after every slide animation
-		keys: true,               //  Enable keyboard (left, right) arrow shortcuts
-		dots: false,               //  Display dot navigation
-		fluid: false              //  Support responsive design. May break non-responsive designs
-	});
-});
-</script>
  </html>
 
 
