@@ -14,18 +14,6 @@
       <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+  <link type="text/css" rel="stylesheet" href="../statics/css/admin/main.css"> 
  </head>
-<header id="header">
-		<h1 class="logo" ><a href="welcome">Olivia</a></h1>
-		<nav class="nav">
-			<ul class="">
-				<li id="" class="">
-					<a href="about">About</a>
-				</li>
-				<li id="" class="">
-					<a href="archives">Archives</a>
-				</li>
-			</ul>		
-		</nav>
-</header>
-<body>
+
