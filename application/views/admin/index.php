@@ -11,15 +11,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Blog Admin</a>
+      <a class="navbar-brand" href="login">Blog Admin</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">blog</a></li>
-        <li><a href="#">profile</a></li>
-        <li><a href="#">user</a></li>
+        <li class="active">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">    
+            <li><a href="blog">Add Blog</a></li> 
+          </ul>
+        </li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">User</a></li>
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
@@ -110,7 +115,7 @@
   </div>
   <div class="content-secondary">
   	<div class="">
-  		<button type="button" class="btn btn-primary">Add Blog</button>
+  		<a type="button" class="btn btn-primary" href="blog">Add Blog</a>
   		<button type="button" class="btn btn-danger">Delete All</button>
   	</div>
   </div>

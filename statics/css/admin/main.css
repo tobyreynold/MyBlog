@@ -90,6 +90,22 @@ color: #111;
   float: right;
 }
 
+/* add blog css*/
+.content-main form {
+  margin: 0 auto;
+  width: 960px;
+}
+
+form dl  {
+  margin: 0 auto;
+  width: 500px;
+}
+
+form dl dd {
+  margin-bottom: 30px;
+}
+
+
 
 
 
