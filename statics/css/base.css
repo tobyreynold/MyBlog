@@ -348,7 +348,41 @@ blockquote {
 	border-color: #ff3600;
 }
 
+/* back to top*/
+.scroll-top {
+	width: 50px;
+	height: 50px;
+	background: rgba(0,0,0,.7); 
+	bottom: 100px;
+	position: fixed;
+	left: 50%;
+	bottom: 130px;
+	margin-left: 360px;
+	cursor: pointer;
+	border-radius: 4px;
+	display: none;
+}
 
+.scroll-top:hover {
+	background: rgba(0,0,0,.6);
+	transition:all 0.4s ease 0.1s; 
+}
+
+.scroll-top:after {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border:0 solid #FFF;
+    border-width: 0 0 3px 3px;
+    top: 20px;
+    left: 16px;
+    webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
 
 
 /* footer css*/
