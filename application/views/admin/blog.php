@@ -18,8 +18,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Blog</a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">User</a></li>
+        <li><a href="profile">Profile</a></li>
+        <li><a href="user">User</a></li>
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
@@ -72,7 +72,10 @@
                 <input type="text" class="form-control" placeholder="url..">
               </dd>
 
-              <dd><button type="submit" class="btn btn-primary">Submit</button></dd>
+              <dd>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a class="btn btn-default" href="login">Back</a>
+              </dd>
           </dl>
           
       </form>
