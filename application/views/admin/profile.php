@@ -17,13 +17,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active">
+        <li>
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">    
             <li><a href="blog">Add Blog</a></li> 
           </ul>
         </li>
-        <li><a href="profile">Profile</a></li>
+        <li class="active"><a href="profile">Profile</a></li>
         <li><a href="user">User</a></li>
       </ul>
       
@@ -54,69 +54,61 @@
     
 <div class="wrapper">
   <div class="content-main">
-  		<table class="table table-hover" width="100%">
-  			<thead>
-  				<tr>
-          		<th>BlogId</th>
-		        <th>Name</th>
-		        <th>Description</th>
-		        <th>Content</th>
-		        <th>Img Url</th>
-		        <th>Insert Time</th>
-		        <th>Update Time</th>
-		        <th>operation</th>
-		        </tr>
-  			</thead>
-  			<tbody>
-  			<tr>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">...</td>
-			  <td class="danger">...</td>
-			  <td class="info">...</td>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">
-			  	<button type="button" class="btn btn-info">Edit</button>
-  				<button type="button" class="btn btn-danger">Delete</button>
-			  </td>
-			</tr>
-			<tr>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">...</td>
-			  <td class="danger">...</td>
-			  <td class="info">...</td>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">
-			  	<button type="button" class="btn btn-info">Edit</button>
-  				<button type="button" class="btn btn-danger">Delete</button>
-			  </td>
-			</tr>
-			<tr>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">...</td>
-			  <td class="danger">...</td>
-			  <td class="info">...</td>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">
-			  	<button type="button" class="btn btn-info">Edit</button>
-  				<button type="button" class="btn btn-danger">Delete</button>
-			  </td>
-			</tr>
+  		<form>
+          <legend>Edit Profile</legend>
+          <dl>
+              <dd class="input-group">
+                <span class="input-group-addon">Description</span>
+                <textarea class="form-control" placeholder="description.."></textarea>
+              </dd>
 
-  			</tbody>
- 			
-		</table>
+              <dd class="input-group">
+                <span class="input-group-addon">Email</span>
+                <input type="text" class="form-control" placeholder="email..">
+              </dd>
+            
+              
+            
+              <dd class="input-group">
+                <span class="input-group-addon">Facebook</span>
+                <input type="text" class="form-control" placeholder="url..">
+              </dd>
 
+              <dd class="input-group">
+                <span class="input-group-addon">Instagram</span>
+                <input type="text" class="form-control" placeholder="url..">
+              </dd>
+
+              <dd class="input-group">
+                <span class="input-group-addon">Pinterest</span>
+                <input type="text" class="form-control" placeholder="url..">
+              </dd>
+
+              <dd class="input-group">
+                <span class="input-group-addon">flickr</span>
+                <input type="text" class="form-control" placeholder="url..">
+              </dd>
+
+              <dd class="input-group">
+                <span class="input-group-addon">vimeo</span>
+                <input type="text" class="form-control" placeholder="url..">
+              </dd>
+
+              <dd class="input-group">
+                <span class="input-group-addon">Text Widget</span>
+                <textarea class="form-control" placeholder="content.."></textarea>
+              </dd>
+
+              <dd>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a class="btn btn-default" href="login">Back</a>
+              </dd>
+          </dl>
+          
+      </form>
   </div>
   <div class="content-secondary">
-  	<div class="">
-  		<a type="button" class="btn btn-primary" href="blog">Add Blog</a>
-  		<button type="button" class="btn btn-danger">Delete All</button>
+  	<div class="">  		
   	</div>
   </div>
 </div>
