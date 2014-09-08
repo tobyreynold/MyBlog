@@ -15,7 +15,7 @@
 </footer>
 
 </body>
-<script type="text/javascript" src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="../statics/js/jQuery-2.0.0.js"></script>
 <script type="text/javascript" src="../statics/js/unslide.js"></script>
 <script type="text/javascript" src="../statics/js/main.js"></script>
 </html>
