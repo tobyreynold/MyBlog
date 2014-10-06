@@ -7,3 +7,5 @@
 2. 首页采用snap.svg制作开场动画,生成一个snap对象需要选择页面中svg标签的id，类似jQuery的写法。
 
 3. snap.circle(X,Y,R) 方法对应参数X为圆心的X轴坐标，参数Y为Y轴坐标，R为圆的半径。
+
+4. codeigniter: 连接数据库的时候出现 Message: Undefined property: User::$db，在config目录下的autoloaded.php中添加$autoload[‘libraries’] = array(‘database’);便可以解决此问题。

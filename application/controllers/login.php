@@ -2,6 +2,13 @@
 
 class Login extends CI_Controller {
 
+	function __construct() {
+		parent::__construct();
+		$this->load->model('blogModels');
+		// $this->load->library('encrypt');
+	}
+
+
 
 	public function index()
 	{
@@ -14,6 +21,7 @@ class Login extends CI_Controller {
 		);
 
 		$data['info'] = $info;
+		$data['blog'] = $this->blogModels->get_blog();
 		$this->load->view('admin/index',$data);
 	}
 }

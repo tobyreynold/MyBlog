@@ -54,8 +54,8 @@
     
 <div class="wrapper">
   <div class="content-main">
-  		<table class="table table-hover" width="100%">
-  			<thead>
+  <table class="table table-hover" width="100%">
+    <thead>
   				<tr>
           		<th>BlogId</th>
 		        <th>Name</th>
@@ -66,52 +66,31 @@
 		        <th>Update Time</th>
 		        <th>operation</th>
 		        </tr>
-  			</thead>
-  			<tbody>
-  			<tr>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">...</td>
-			  <td class="danger">...</td>
-			  <td class="info">...</td>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">
-			  	<button type="button" class="btn btn-info">Edit</button>
-  				<button type="button" class="btn btn-danger">Delete</button>
-			  </td>
-			</tr>
-			<tr>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">...</td>
-			  <td class="danger">...</td>
-			  <td class="info">...</td>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">
-			  	<button type="button" class="btn btn-info">Edit</button>
-  				<button type="button" class="btn btn-danger">Delete</button>
-			  </td>
-			</tr>
-			<tr>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">...</td>
-			  <td class="danger">...</td>
-			  <td class="info">...</td>
-			  <td class="active">...</td>
-			  <td class="success">...</td>
-			  <td class="warning">
-			  	<button type="button" class="btn btn-info">Edit</button>
-  				<button type="button" class="btn btn-danger">Delete</button>
-			  </td>
-			</tr>
-
-  			</tbody>
- 			
+  	</thead>
+  	<tbody>
+      <?php
+      if(isset($blog)&& count($blog)):
+        foreach($blog as $row):
+      ?>
+      <tr>
+        <td class="active"><?php echo $row->id;?></td>
+        <td class="success"><?php echo $row->blog_title;?></td>
+        <td class="warning"><?php echo $row->content;?></td>
+        <td class="danger"><?php echo $row->content;?></td>
+        <td class="info"><?php echo $row->img_url;?></td>
+        <td class="active"><?php echo $row->insert_time;?></td>
+        <td class="success"><?php echo $row->update_time;?></td>
+        <td class="warning">
+          <button type="button" class="btn btn-info">Edit</button>
+          <button type="button" class="btn btn-danger">Delete</button>
+        </td>
+      </tr>
+      <?php
+        endforeach;
+        endif;
+      ?>
+  	</tbody>
 		</table>
-
   </div>
   <div class="content-secondary">
   	<div class="">
