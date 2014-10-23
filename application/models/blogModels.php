@@ -20,4 +20,9 @@ class blogModels extends CI_Model {
 			return FALSE;
 		}
 	}
+
+	function del_blog($id) {
+		$sql = 'UPDATE blog SET is_deleted=1 WHERE id=?';
+		$query = $this->db->query($sql,array($id));
+	}
 }	

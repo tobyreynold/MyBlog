@@ -24,4 +24,11 @@ class Login extends CI_Controller {
 		$data['blog'] = $this->blogModels->get_blog();
 		$this->load->view('admin/index',$data);
 	}
+
+	public function del_blog() {
+		$blog_id = $this->input->post('id');
+
+		$this->blogModels->del_blog($blog_id);
+		
+	}
 }
