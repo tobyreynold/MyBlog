@@ -82,7 +82,7 @@
         <td class="success"><?php echo $row->update_time;?></td>
         <td class="warning">
           <button type="button" class="btn btn-info">Edit</button>
-          <button type="button" class="btn btn-danger">Delete</button>
+          <button type="button" class="btn btn-danger" data-id="<?php echo $row->id;?>">Delete</button>
         </td>
       </tr>
       <?php
