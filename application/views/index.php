@@ -15,7 +15,7 @@
 		<img src="../statics/images/avatar.jpg" width="64px" height="64px">
 	</div>
 	<p>
-		<strong class="name">xiaoyue</strong>
+		<strong class="name">Toby</strong>
 	</p>
 	<p>
 		<a class="btn btn-trans" href="#">read more</a>

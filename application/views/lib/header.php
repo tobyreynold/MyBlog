@@ -10,7 +10,7 @@
 <body>
 
 <header id="header">
-		<h1 class="logo" ><a href="welcome">Olivia</a></h1>
+		<h1 class="logo" ><a href="welcome">Toby</a></h1>
 		<nav class="nav">
 			<ul class="">
 				<li id="" class="">
